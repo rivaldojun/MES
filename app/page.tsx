@@ -138,7 +138,7 @@ export default function MesDashboard() {
   if (!mounted) return null
 
   return (
-    <div className="flex min-h-screen flex-col bg-gradient-to-br from-slate-950 to-slate-900 text-slate-100">
+    <div className="flex min-h-screen flex-col bg-white text-black">
       {/* Header */}
       <header className="sticky top-0 z-50 backdrop-blur-md bg-slate-900/70 border-b border-slate-800">
         <div className="container mx-auto">
