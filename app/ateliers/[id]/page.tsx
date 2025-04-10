@@ -2,7 +2,6 @@ import type React from "react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { motion } from "framer-motion"
 import Link from "next/link"
 import {
   Cpu,
@@ -461,22 +460,9 @@ export default function AtelierPage({ params }: { params: { id: string } }) {
   return (
     <div className="flex min-h-screen flex-col bg-gray-50">
       <header className="sticky top-0 z-50 flex h-16 items-center gap-4 border-b bg-white px-4 shadow-sm sm:px-6">
-        <div className="flex items-center gap-2">
-          <Button variant="ghost" size="icon" className="md:hidden">
-            <Menu className="h-5 w-5" />
-          </Button>
-          <div className="flex items-center gap-2">
-            <motion.div
-              initial={{ rotate: 0 }}
-              animate={{ rotate: 360 }}
-              transition={{ duration: 2, repeat: Number.POSITIVE_INFINITY, ease: "linear" }}
-            >
-              <Cpu className="h-6 w-6 text-cyan-500" />
-            </motion.div>
-            <h1 className="text-lg font-semibold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
-              BORDE CONSULTING
-            </h1>
-          </div>
+        <div className="flex flex-1 items-center gap-2">
+          <Cpu className="h-6 w-6 text-blue-600" />
+          <h1 className="text-lg font-semibold">BORDE CONSULTING</h1>
         </div>
         <div className="flex items-center gap-4">
           <Button variant="outline" size="sm">
