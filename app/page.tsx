@@ -138,7 +138,7 @@ export default function MesDashboard() {
   if (!mounted) return null
 
   return (
-    <div className="flex min-h-screen flex-col bg-white text-black">
+    <div className="flex min-h-screen flex-col bg-gradient-to-br from-slate-950 to-slate-900 text-slate-100">
       {/* Header */}
       <header className="sticky top-0 z-50 backdrop-blur-md bg-slate-900/70 border-b border-slate-800">
         <div className="container mx-auto">
@@ -156,7 +156,7 @@ export default function MesDashboard() {
                   <Cpu className="h-6 w-6 text-cyan-500" />
                 </motion.div>
                 <h1 className="text-lg font-semibold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
-                  NEXUS MES
+                  BORDE CONSULTING
                 </h1>
               </div>
             </div>
@@ -405,7 +405,7 @@ export default function MesDashboard() {
 
                         <Button
                           variant="outline"
-                          className="w-full mt-2 border-slate-700 text-slate-300 hover:bg-slate-700 hover:text-white"
+                          className="w-full mt-2 border-slate-700 text-slate-700 hover:bg-slate-700 hover:text-white"
                         >
                           Voir les détails
                         </Button>
