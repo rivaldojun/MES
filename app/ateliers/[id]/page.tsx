@@ -459,7 +459,7 @@ export default function AtelierPage({ params }: { params: { id: string } }) {
   return (
     <div className="flex min-h-screen flex-col bg-gray-50">
       <header className="sticky top-0 z-50 flex h-16 items-center gap-4 border-b bg-white px-4 shadow-sm sm:px-6">
-          <div className="flex items-center gap-2">
+        <div className="flex flex-1 items-center gap-2">
             <Button variant="ghost" size="icon" className="md:hidden">
               <Menu className="h-5 w-5" />
             </Button>
@@ -475,7 +475,7 @@ export default function AtelierPage({ params }: { params: { id: string } }) {
                 BORDE CONSULTING
               </h1>
             </div>
-          </div>
+        </div>
         <div className="flex items-center gap-4">
           <Button variant="outline" size="sm">
             <Search className="mr-2 h-4 w-4" />

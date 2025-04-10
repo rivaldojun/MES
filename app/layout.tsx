@@ -6,8 +6,8 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "BORDE CONSULTING - Tableau de Bord",
-  description: "Interface du BORDE CONSULTING pour la gestion des ateliers de production",
+  title: "Système MES - Tableau de Bord",
+  description: "Interface du système MES pour la gestion des ateliers de production",
     generator: 'v0.dev'
 }
 
