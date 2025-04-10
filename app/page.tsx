@@ -155,9 +155,11 @@ export default function MesDashboard() {
                 >
                   <Cpu className="h-6 w-6 text-cyan-500" />
                 </motion.div>
-                <h1 className="text-lg font-semibold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
-                  BORDE CONSULTING
-                </h1>
+                <Link href={`/`} key="home" className="group">
+                  <h1 className="text-lg font-semibold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
+                    BORDE CONSULTING
+                  </h1>
+                </Link>
               </div>
             </div>
 
