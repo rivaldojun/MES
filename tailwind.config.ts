@@ -60,7 +60,42 @@ const config: Config = {
   				'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
   				border: 'hsl(var(--sidebar-border))',
   				ring: 'hsl(var(--sidebar-ring))'
-  			}
+  			},
+			  cyan: {
+				400: "#22d3ee",
+				500: "#06b6d4",
+				600: "#0891b2",
+			  },
+			  slate: {
+				100: "#f1f5f9",
+				300: "#cbd5e1",
+				400: "#94a3b8",
+				600: "#475569",
+				700: "#334155",
+				800: "#1e293b",
+				900: "#0f172a",
+				950: "#020617",
+			  },
+			  emerald: {
+				400: "#34d399",
+				500: "#10b981",
+			  },
+			  amber: {
+				400: "#fbbf24",
+				500: "#f59e0b",
+			  },
+			  blue: {
+				400: "#60a5fa",
+				500: "#3b82f6",
+				600: "#2563eb",
+			  },
+			  purple: {
+				400: "#c084fc",
+				500: "#a855f7",
+			  },
+			  rose: {
+				500: "#f43f5e",
+			  },
   		},
   		borderRadius: {
   			lg: 'var(--radius)',
@@ -83,7 +118,8 @@ const config: Config = {
   				to: {
   					height: '0'
   				}
-  			}
+  			},
+			
   		},
   		animation: {
   			'accordion-down': 'accordion-down 0.2s ease-out',
