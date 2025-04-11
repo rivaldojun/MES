@@ -612,7 +612,7 @@ export default function AtelierPage({ params }: { params: { id: string } }) {
                   <Database className="h-4 w-4 text-muted-foreground" />
                 </CardHeader>
                 <CardContent>
-                  <div className="whitespace-pre-line text-sm bg-gray-400 rounded-full p-2">{atelier.machineInfo}</div>
+                  <div className="whitespace-pre-line text-sm">{atelier.machineInfo}</div>
                 </CardContent>
               </Card>
 
@@ -622,7 +622,7 @@ export default function AtelierPage({ params }: { params: { id: string } }) {
                   <Info className="h-4 w-4 text-muted-foreground" />
                 </CardHeader>
                 <CardContent>
-                  <div className="whitespace-pre-line text-sm bg-gray-400 rounded-full p-2">{atelier.pieceInfo}</div>
+                  <div className="whitespace-pre-line text-sm">{atelier.pieceInfo}</div>
                 </CardContent>
               </Card>
             </div>
@@ -893,7 +893,7 @@ export default function AtelierPage({ params }: { params: { id: string } }) {
                 <CardDescription>Recommandés pour cet atelier</CardDescription>
               </CardHeader>
               <CardContent>
-                <div className="whitespace-pre-line text-sm bg-gray-400 rounded-full p-2 bg-gray-400 rounded-full p-2">{atelier.controlTools}</div>
+                <div className="whitespace-pre-line text-sm">{atelier.controlTools}</div>
               </CardContent>
             </Card>
           </TabsContent>
@@ -940,7 +940,7 @@ export default function AtelierPage({ params }: { params: { id: string } }) {
                 <CardDescription>Configuration actuelle</CardDescription>
               </CardHeader>
               <CardContent>
-                <div className="whitespace-pre-line text-sm bg-gray-400 rounded-full p-2">{atelier.mesConnection}</div>
+                <div className="whitespace-pre-line text-sm">{atelier.mesConnection}</div>
               </CardContent>
             </Card>
 
