@@ -893,7 +893,7 @@ export default function AtelierPage({ params }: { params: { id: string } }) {
                 <CardDescription>Recommandés pour cet atelier</CardDescription>
               </CardHeader>
               <CardContent>
-                <div className="whitespace-pre-line text-sm">{atelier.controlTools}</div>
+              <div className="bg-gray-50 rounded-xl p-3 text-sm text-gray-700 leading-relaxed whitespace-pre-line">{atelier.controlTools}</div>
               </CardContent>
             </Card>
           </TabsContent>
